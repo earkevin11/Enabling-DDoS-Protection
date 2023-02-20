@@ -17,8 +17,14 @@
 
 # Best Practices for building DDoS resilient services in Azure
 
-# Best Practice 1
--
+# Best Practice 1: Understand Application Architecture
+- Solution: Ensure that security is a priority throughout the entire lifecycle of an application, from design and implementation to deployment and operations. Applications might have bugs that allow a relatively low volume of requests to use a lot of resources, resulting in a service outage.
+- Solution below:
+- <p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/220011367-92666de6-d056-469a-8dbd-97792611b658.png" height="100%" width="100%" alt="SPF"/>
+  
+<p/>
 
 # Best Practice 2: Eliminate single point of failure (SPF)
 - Solution: Design your application handle increased loads by provisioning multiple instances makeing your system more resilient and more scalable.
