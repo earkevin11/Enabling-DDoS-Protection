@@ -12,3 +12,10 @@
 
 # What are the goal of DDoS?
 - The malicious hacker’s goal is to overwhelm system resources on targeted servers making the system inaccessible.
+
+
+
+# Best Practices for building DDoS resilient services in Azure
+-
+-
+-
