@@ -37,3 +37,9 @@
 <img src="https://user-images.githubusercontent.com/104326475/220010998-dcc25857-e496-4608-b634-8be86b0ed344.png" height="100%" width="100%" alt="SPF"/>
   
 <p/>
+
+
+# Best Practice 3: Implement defense in depth and layer security defenses in an application to reduce the chance of a successful attack
+- Solution: Reduce the surface area by using IP allowlists to close down the exposed IP address space and listening ports that aren’t needed on the load balancers (for Azure Load Balancer and Azure Application Gateway).
+- Use Network Security Groups (NSGs) to reduce the attack surface. 
+- You can use service tags and application security groups (ASGs) as a natural extension of an application’s structure to minimize complexity for creating security rules and configuring network security.
