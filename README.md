@@ -28,7 +28,6 @@
 
 <p align="center">
   
-<img src="https://user-images.githubusercontent.com/104326475/220010998-dcc25857-e496-4608-b634-8be86b0ed344.png
-" height="100%" width="100%" alt="AZ Active Directory Roles"/>
+<img src="https://user-images.githubusercontent.com/104326475/220010998-dcc25857-e496-4608-b634-8be86b0ed344.png" height="100%" width="100%" alt="SPF"/>
   
 <p/>
