@@ -16,6 +16,12 @@
 
 
 # Best Practices for building DDoS resilient services in Azure
+
+# Best Practice 1
 -
--
--
+
+# Best Practice 2: Eliminate single point of failure 
+- Solution: Design your application handle increased loads by provisioning multiple instances makeing your system more resilient and more scalable.
+- - 1. For Azure App Service, select an App Service plan that offers multiple instances.
+- - 2. For Azure Cloud Services, configure each of your roles to use multiple instances.
+- - 3. For Azure Virtual Machines, ensure that your VM architecture includes more than one VM and that each VM is included in an availability set. We recommend using virtual machine scale sets for autoscaling capabilities.
