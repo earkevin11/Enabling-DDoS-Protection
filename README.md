@@ -43,3 +43,17 @@
 - Solution: Reduce the surface area by using IP allowlists to close down the exposed IP address space and listening ports that aren’t needed on the load balancers (for Azure Load Balancer and Azure Application Gateway).
 - Use Network Security Groups (NSGs) to reduce the attack surface. 
 - You can use service tags and application security groups (ASGs) as a natural extension of an application’s structure to minimize complexity for creating security rules and configuring network security.
+
+
+
+
+
+# Azure DDoS has Two plans: Basic and Standard
+- Basic Azure DDoS is automatically enabled on Azure platform.
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/220015677-cb5bf3ec-0bb3-492c-b036-21c5931a3535.png" height="100%" width="100%" alt="SPF"/>
+  
+<p/>
+
+
